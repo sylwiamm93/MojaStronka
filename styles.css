@@ -1,0 +1,43 @@
+
+html {
+	background-image: url("images/gran.jpg");
+}
+
+
+h1 {
+	border-style: solid;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#blu {
+	font-size: 40px;
+	font-family: "Engagement";
+	background-color: none;
+}
+
+#high {
+	height: 300px;
+}
+
+#btns {
+	width: 100px;
+	padding: 50px;
+	text-align: center;
+}
+
+.imgs {
+	width: 500px;
+	text-align: center;
+}
+
+img {
+	opacity: 0.5;
+}
+
+.dl-horizontal {
+	position: relative;
+	margin-left: -50px;	
+}
+
+

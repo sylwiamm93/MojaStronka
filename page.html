@@ -2,19 +2,51 @@
 <html>
 	<head>
 		<title>My first page!</title>
+		<link rel=StyleSheet href="styles.css" type="text/css" media=screen>
 		<link rel=StyleSheet href="bootstrap/css/bootstrap.css" type="text/css" media=screen>
+		<link href='http://fonts.googleapis.com/css?family=Engagement' rel='stylesheet' type='text/css'>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	</head>
+
 <body>
-	<h1>SYLWIA</h1>
-	<table class="table">
-		<tr>
-			<td>1</td>
-			<td>2</td>
+	<h1 class="text-center">My firts page!</h1>
+
+
+	<table class="table table-bordered lead">
+
+		<tr  class="text-center active" id="blu">
+			<td >Links</td>
+			<td>Video</td>
+			<td>Info</td>
+			<td>Pictures</td>
 		</tr>
-		<tr>
-			<td>34</td>
-			<td>56</td>
+		<tr id="high">
+			<td id="btns">
+				<a role="button" class="btn btn-danger" href="http://gmail.com">GMAIL</a><br><br>
+				<a role="button" class="btn btn-primary" href="http://facebook.pl">FACEBOOK</a><br><br>
+				<a role="button" class="btn btn-warning" href="http://github.com">GITHUB</a><br><br>
+				<a role="button" class="btn btn-success" href="http://google.pl">Wujek Google</a>				
+			</td>
+
+			<td style="width:370px">
+<iframe width="360" height="240" src="http://www.youtube.com/embed/L35rpdiHH_8" frameborder="0" allowfullscreen></iframe>
+			</td>
+			
+			<td>
+			<dl class="dl-horizontal">
+  				<dt>Name:</dt>
+  				<dd>Sylwia</dd>
+			</dl>
+			</td>
+
+			<td class="imgs" >
+				<img src="images/warsaw.jpg" alt="Warsaw" class="img-rounded" height="140px" width="140px">	
+				<img src="images/svenska.jpg" alt="Sweden" class="img-rounded" height="140px" width="140px"> <br><br>
+				<img src="images/portugalia.jpg" alt="Portugal" class="img-rounded" height="140px" width="140px">	
+				<img src="images/london.jpg" alt="London" class="img-rounded" height="140px" width="140px">	
+			</td>
 		</tr>
 	</table>
+
 </body>
 </html>
