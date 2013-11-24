@@ -4,15 +4,20 @@
 		<title>My first page!</title>
 		<link rel=StyleSheet href="bootstrap/css/bootstrap.css" type="text/css" media=screen>
 		<link rel=StyleSheet href="styles.css" type="text/css" media=screen>
-
 		<link href='http://fonts.googleapis.com/css?family=Engagement' rel='stylesheet' type='text/css'>
+
+		<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="bootstrap/js/collapse.js"></script>
+		<script type="text/javascript" src="bootstrap/js/transition.js"></script> nie wiem czy to ma być-->
+
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	</head>
 
 <body>
 
 	<header>
-		<h1 class="text-center">My firts page!</h1>
+		<h1 class="text-center">My first page!</h1>
 	</header>
 
 	<section id="container">
@@ -21,7 +26,7 @@
 		<tr class="text-center active blu">
 			<td >Links</td>
 			<td>Video</td>
-			<td>Info</td>
+			<td style="width:40px">Info</td>
 			<td>Pictures</td>
 		</tr>
 		<tr class="high">
@@ -32,25 +37,145 @@
 				<a role="button" class="btn btn-success" href="http://google.pl">Wujek Google</a>				
 			</td>
 
-			<td style="width:370px">
+			<td style="width:370px; text-align: center">
 <iframe width="360" height="240" src="http://www.youtube.com/embed/L35rpdiHH_8" frameborder="0" allowfullscreen></iframe>
 			</td>
 			
 			<td>
-			<dl class="dl-horizontal">
-  				<dt>Name:</dt>
-  				<dd>Sylwia</dd>
-			</dl>
+			
 			</td>
 
 			<td class="imgs" >
-				<img src="images/warsaw.jpg" alt="Warsaw" class="img-rounded" height="140px" width="140px">	
-				<img src="images/svenska.jpg" alt="Sweden" class="img-rounded" height="140px" width="140px"> <br><br>
-				<img src="images/portugalia.jpg" alt="Portugal" class="img-rounded" height="140px" width="140px">	
-				<img src="images/london.jpg" alt="London" class="img-rounded" height="140px" width="140px">	
+				<img src="images/warsaw.jpg" alt="Warsaw" title="Warsaw" class="img-rounded" height="140px" width="140px">	
+				<img src="images/svenska.jpg" alt="Sweden" title="Sweden" class="img-rounded" height="140px" width="140px"> <br><br>
+				<img src="images/portugalia.jpg" alt="Portugal" title="Portugal" class="img-rounded" height="140px" width="140px">	
+				<img src="images/london.jpg" alt="London" title="London" class="img-rounded" height="140px" width="140px">	
 			</td>
 		</tr>
+
+		<tr>
+			<td class="przer" colspan="4" height="50px"></td>
+		</tr>
+
+		<tr>
+			<td colspan="4">
+				<form role="form" class="form-inline">
+
+					<div class="form-group">
+    <label for="exampleInputEmail1">Pick your favourite colour:</label>
+<input type="color" class="form-control" placeholder="Color">
+  </div>
+
+  					<div class="form-group">
+  	<label for="exampleInputEmail">Pick your birth date:</label>
+<input type="date" class="form-control" placeholder="Date">
+	</div>
+
+<div class="form-group">
+  	<label for="exampleInputEmail">Pick your phone number:</label>
+<input type="tel" class="form-control" placeholder="Tel">
+	</div>
+	
+  <button type="submit" class="btn btn-danger" id="sumbit">Submit</button>
+
+
+
+
+				</form>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="przer" colspan="4" height="50px"></td>
+		</tr>
+
+		<tr>
+			<td>
+
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+	  #1
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+	    #2
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+	    #3
+	  </label>
+	</div>
+
+			</td>
+
+	<td>
+		<select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+	</td>
+
+
+			<td colspan="2">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Favourite Color
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        sufyoaeiwuoaiulfhwhgjnvkdljgei
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Birth Date
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        dsjfhkshflaweuhfluhweaflkhawelkjfhawlekjhflkwejahflakwjehfawlkjehf
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Phone number
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        isfueiuroiaeurjemnflskehiuergjksrhgkjeshkjghkdjghsdnmbuserhgje
+      </div>
+    </div>
+  </div>
+</div>
+
+			</td>
+		</tr>	
+
+
 	</table>
-</section>
+
+
 </body>
 </html>

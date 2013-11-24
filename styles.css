@@ -3,7 +3,7 @@ html, body, #container {
 }
 
 header, #container {
-	padding: 20px 0;
+	padding: 10px 0;
 	background: url("images/gran.jpg") #000;
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 .btns {
-	width: 100px;
+	width: 200px;
 	padding: 50px;
 	text-align: center;
 }
@@ -49,7 +49,19 @@ img:hover {
 
 .dl-horizontal {
 	position: relative;
-	margin-left: -50px;	
+	margin-left: -17px;	
 }
 
+.przer {
+	background: url("images/gran.jpg") #000;
+}
 
+#sumbit {
+	position:relative;
+	left: 64px;
+}
+
+.radio {
+	margin-left: 87px;
+	margin-top: 50px;
+}
